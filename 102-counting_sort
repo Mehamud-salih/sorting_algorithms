@@ -1,5 +1,6 @@
 #include "sort.h"
 
+
 /**
  * counting_sort - sorts an array with the Counting sort algorithm
  * @array: array to sort
