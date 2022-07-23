@@ -1,5 +1,6 @@
 #include "sort.h"
 
+
 /**
  * heap_sort - sorts an array following the Heap sort algorithm
  * @array: array of ints to sort
@@ -26,6 +27,7 @@ void heap_sort(int *array, size_t size)
 		heapify(array, (size_t)i, 0, size);
 	}
 }
+
 
 /**
  * heapify - turns an array in a heap tree
