@@ -1,5 +1,6 @@
 #include "sort.h"
 
+
 /**
  * merge_sort - sorts an array with the Merge Sort algorithm
  * @array: array of ints to sort
@@ -17,6 +18,7 @@ void merge_sort(int *array, size_t size)
 	merge_recursion(arr, array, 0, size);
 	free(arr);
 }
+
 
 /**
  * merge_recursion - recursive function that merge sorts an array
@@ -37,6 +39,7 @@ void merge_recursion(int *arr, int *array, size_t left, size_t right)
 		merge_subarray(arr, array, left, middle, right);
 	}
 }
+
 
 /**
  * merge_subarray - merges subarrays
