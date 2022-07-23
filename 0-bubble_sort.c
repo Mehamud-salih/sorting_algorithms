@@ -1,6 +1,5 @@
 #include "sort.h"
 #include <stdio.h>
-
 /**
  * bubble_sort - sorts an array in ascending order
  * @array: array of ints to sort
@@ -10,10 +9,8 @@ void bubble_sort(int *array, size_t size)
 {
 	unsigned int i, j;
 	int tmp;
-
 	if (size < 2)
 		return;
-
 	for (i = 0; i < size; i++)
 	{
 		for (j = 0; j < size - i - 1; j++)
